@@ -1,0 +1,72 @@
+*{padding:0; margin:0;}
+a{text-decoration: none;}
+
+#container{width:1350px; margin:0 auto; }
+header .top_bn {background-image: url(../img/bg4.jpg); width:100%; height: 250px; overflow:hidden; background-size: cover;}
+
+
+section{display:grid; grid-template-columns: 950px 400px; padding-top:50px;}
+.contents {width:950px; overflow: hidden;}
+.contents h1{width: 100%;  padding: 15px 50px; border-bottom: 2px solid #67B037;}
+
+#buy_form{ width:850px; overflow: hidden; margin:25px 50px; padding: 25px 0;  border:1.5px solid #67B037; box-sizing: border-box; border-radius: 15px;}
+
+.contents h4 { display:inline-block; width: 800px; padding: 15px 25px; margin : 45px 0 35px; font-size:18px; background-color: #eaf5e3;}
+.contents .buyuser_info span {color:#FF1700;}
+#title {font-size:18px; background-color: #eaf5e3; width: 800px; padding: 15px 25px; margin: 0 0 35px; }
+#tt {width: 350px;}
+label{font-size:14px; display: block;}
+input{ padding: 10px 7px; border: 1px solid #e6e6e6;}
+.pd_area {padding: 0 20px;}
+.inputarea p {color: rgb(118, 118, 118); margin-bottom: 10px; font-size:12px;}
+
+.pd_area p {color:#FF1700; font-size: 14px;}
+
+.ctnt textarea {width: 798px; height:450px; padding: 15px 25px; border: 1px solid #e6e6e6;}
+
+.btn {font-size:14px; padding: 7px 10px; margin: 25px 10px; border:none; border-radius: 5px; background-color: #eaf5e3; color:rgb(56, 56, 56);}
+
+.buy_inv .inv_area {width:350px; height:65px;  background-color:#f3f3f3; text-align: center;}
+
+/*=====수량선택박스=====*/
+input[type="number"] {-webkit-appearance: textfield; -moz-appearance: textfield; appearance: textfield;}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none;}
+
+.number-input { display: inline-flex;}
+.number-input,
+.number-input * { box-sizing: border-box;}
+
+.number-input input[type=button] {
+  outline:none;
+  -webkit-appearance: none;
+  background-color: #eaf5e3;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 30px;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+}
+
+.number-input button:before,
+.number-input button:after {
+  display: inline-block;
+  position: absolute;
+  content: '';
+  background-color: #212121;
+  transform: translate(-50%, -50%);
+}
+.number-input button.plus:after {transform: translate(-50%, -50%) rotate(90deg);}
+.number-input input[type=number] {
+  font-family: sans-serif;
+  padding: 15px;
+  font-size: 14px;
+  width: 45px;
+  height:25px;
+  text-align: center;
+}
+/*=====수량선택박스=====*/

@@ -1,0 +1,35 @@
+*{padding:0; margin:0;}
+a{text-decoration: none;}
+.container{width:1350px; margin:0 auto;}
+header .top{width:100%; height:50px;}
+header .top_logo {display:inline-block; width:100px;}
+header .top_logo a{color:#67B037; font-size:20px; padding:15px 0;}
+.top_menu{float:right;}
+
+header .top_bn {background-image: url(../img/bg3.jpg); width:100%; height: 300px; overflow:hidden; background-size: cover;}
+
+section{display:grid; grid-template-columns: 950px 400px; padding:50px 0;}
+#write_box {width: 950px; overflow:hidden; }
+#write_box h1{width: 920px; border-bottom: 2px solid #67B037; padding: 15px; margin-bottom: 20px;}
+
+.board_item{width:450px; padding:10px; margin-bottom: 10px;}
+.titlebox input{width:450px; padding:10px; margin-bottom:10px; box-sizing: border-box;}
+.upload_img{margin-bottom:10px;}
+.imgbox{width:150px; height:150px; background-image:url(../img/plus.png); background-repeat: no-repeat; background-size: contain;}
+.ctntbox textarea{width:950px; min-height:400px; overflow: hidden; padding: 15px 10px; box-sizing: border-box;}
+
+.write_btn {text-align: center;}
+.sub{
+  display:inline-block;
+  border:1px solid #ccc;
+  border-radius: 10px;
+  height:30px;
+  width: 50px;
+  margin:10px;
+}
+
+.sub:hover{
+background-color: rgb(181, 181, 181); color:#fff; 
+border:none;
+border-radius: 10px;
+}

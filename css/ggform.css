@@ -1,0 +1,30 @@
+*{padding:0; margin:0;}
+a{text-decoration: none;}
+
+#container{width:1350px; margin:0 auto; }
+header .top{width:100%; height:50px;}
+header .top_logo a{color:#67B037; font-size:20px; padding:15px 0;}
+header .top_menu {float:right;}
+header .top_bn {background-image: url(../img/bg4.jpg); width:100%; height: 250px; overflow:hidden; background-size: cover;}
+
+section{display:grid; grid-template-columns: 950px 400px; padding-top:50px;}
+.contents {width:950px; overflow: hidden;}
+.contents h1{width: 100%;  padding: 15px 50px; border-bottom: 2px solid #67B037;}
+
+#sell_form{ width:850px; overflow: hidden; margin:25px 50px; border:1.5px solid #67B037; box-sizing: border-box; border-radius: 15px;}
+
+.contents span { display:inline-block; width: 800px; padding: 15px 25px; margin : 45px 0 35px; font-size:18px; background-color: #eaf5e3;}
+#title {font-size:18px; background-color: #eaf5e3; width: 800px; padding: 15px 25px; margin: 0 0 35px; }
+#tt {width: 350px;}
+label{font-size:14px; display: block;}
+input{ padding: 10px 7px; border: 1px solid #e6e6e6;}
+.inputarea {padding: 0 20px;}
+.inputarea p {color: rgb(118, 118, 118); margin-bottom: 10px; font-size:12px;}
+
+#bnm {width:75px;}
+#bnum {width:160px;}
+#inm {width:95px;}
+
+.ctnt textarea {width: 798px; height:450px; padding: 15px 25px; border: 1px solid #e6e6e6;}
+
+.btn {font-size:14px; padding: 7px 10px; margin: 25px 10px; border:none; border-radius: 5px; background-color: #eaf5e3; color:rgb(56, 56, 56);}

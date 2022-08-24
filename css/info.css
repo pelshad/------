@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+*{padding:0; margin:0;}
+a{text-decoration: none;}
+li{list-style:none;}
+body { display: flex; }
+img{display: inline-block;}
+
+#info_page 
+{ margin:0 auto; padding:50px 20px 40px; max-width:450px; min-width:360px; 
+  align-items: center; justify-content: center;
+}
+
+#info_img .wh40 { width: 100%; height: 260px; text-align: center; background-color: #eaf5e3; border-radius: 15px; margin-bottom: 25px;}
+#info_img .wh40 img{margin:15px 105px;}
+
+
+#info_page .header_txt{line-height:90px; text-align: center; letter-spacing: 4px; font-weight: 100; }
+.header_txt a{font-family: 'Black Han Sans', sans-serif; color:#67B037; font-size: 3rem;}
+
+#joinForm .user_info p { margin-bottom: 10px; }
+#joinForm .user_info input{ width:100%; margin-bottom:10px; padding:12px 20px; font-size:15px; border:1px solid #e6e6e6; box-sizing: border-box;}
+#joinForm .user_info .user_em {font-size: 18px; }
+.info_btn input{ width:100%; margin-top: 10px; padding:14px 0; text-align: center; background-color:#67B037; color:#fff; border:none;}
+
+#ck_btn {display: none;}
+.pw_tt{color:rgb(110, 110, 110); font-size:13px;}
+#ck_btn:checked ~ .pw_tt {color:#000;}
+#ck_btn:checked ~ .pw_input {display: block;}
+.pw_input {display: none; text-align: center; padding:10px 0;}
+.pw_input input {width:165px; padding:12px 20px; border:1px solid #e6e6e6; box-sizing: border-box;}
+
+.pw_ch {height: 25px; color:red; font-size:14px;}

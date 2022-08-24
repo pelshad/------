@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+*{padding:0; margin:0;}
+a{text-decoration: none;}
+li{list-style:none;}
+
+#join_page {margin:0 auto; padding:50px 20px 40px; max-width:450px; min-width:360px;}
+
+#join_page .header_txt{line-height:90px; text-align: center; letter-spacing: 4px;font-weight: 100;}
+.header_txt a{font-family: 'Black Han Sans', sans-serif; color:#67B037; font-size:45px;}
+
+#join_form .user_ins input{width:90%; margin-bottom:30px; padding:12px 20px; font-size:20px; border:1px solid #e6e6e6; }
+#join_form .user_birth{width:100%; margin-bottom:30px; }
+#join_form .user_birth input, #mm{width:20%; padding:12px 20px; font-size:15px; border:1px solid #e6e6e6;}
+#mm {margin:0 20px; width:30%;}
+
+.gender_ck {width:100%; margin-bottom :30px; text-align: center;}
+.gender_ck input[type="radio"]{margin: 0 15px 0 7px;}
+
+.join_btn input{width:100%; margin-top: 25px; padding:14px 0; text-align: center; background-color:#67B037; color:#fff; border:none;}
+

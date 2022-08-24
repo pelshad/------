@@ -1,0 +1,139 @@
+*{padding:0; margin:0;}
+a{text-decoration: none;}
+
+#container{width:1350px; margin:0 auto; }
+header .top{width:100%; height:50px;}
+header .top_logo a{color:#67B037; font-size:20px; padding:15px 0;}
+header .top_menu {float:right;}
+header .top_bn {background-image: url(../img/bg4.jpg); width:100%; height: 250px; overflow:hidden; background-size: cover;}
+
+section{display:grid; grid-template-columns: 950px 400px; padding-top:50px;}
+.contents {width:950px; overflow: hidden;}
+
+.contents .tt_head{width: 850px;  padding: 15px 50px; border-bottom: 2px solid #67B037; position: relative; }
+.contents .tt_head p {color:rgb(54, 54, 54);}
+.contents .tt_head .mod_del {width:130px; height:30px; position: absolute; bottom:10px; right:0;}
+.mod_del button {border: none; padding: 5px 10px; background-color: transparent; margin-right: 15px;}
+
+.contents .con_top { width:720px; height: 175px; margin: 25px auto; padding: 10px;}
+.con_top div {margin:15px 0;}
+.con_top span { display:inline-block; background-color:#eaf5e3; width:85px; height:35px; border-radius: 10px; line-height:35px; text-align: center; color:#a2cf75; margin: 0 35px 0 45px;}
+.ctnt_box {width: 850px; overflow:hidden; min-height: 400px; margin: 0 50px; }
+.ctnt{min-height: 400px;padding:15px;
+}
+
+.buy_btn {width: 180px; margin:30px auto;}
+.buy_btn button {padding:10px 15px; background-color:#67B037; border-radius: 15px; border:none; color: #eaf5e3;}
+
+/* 댓 글 */
+div.comment{
+  word-break: break-all;
+}
+ul li{
+  list-style: none;
+}
+li{
+  float:left;
+}
+ul{
+  padding: 5px 10px;
+}
+/*댓글*/
+.comment ul{
+  display: block;
+  width:780px;
+  border-radius:10px;
+  margin:10px 30px;
+  padding: 10px 20px;
+  background-color: #eaf5e3;
+}
+
+.comment_write{
+  display: block;
+  width:770px;
+  height: 80px;
+  border-radius:10px;
+  margin:10px 30px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  position: relative;
+}
+
+div.com_nm{
+  margin: 5px 0;
+  font-weight: bold;
+  width:80%;
+}
+
+input.comct{
+  border:none;
+  width: 80%;
+  height: 20px;
+  padding: 15px 10px;
+}
+
+div.com_id{
+  display: inline-block;
+  width: 80px;
+  margin: 0 30px;
+  font-weight: bold;
+}
+
+div.com_ct{
+  display:inline-block;
+  margin: 0 0;
+  width: 600px;
+  font-size: 0.9em;
+}
+
+div.com_cr{
+  display: inline-block;
+  font-size: 0.6em;
+}
+
+a.del_com{
+  font-size: 0.7em;
+}
+
+
+
+/* 버튼 디자인 */
+.sub{
+  display:inline-block;
+  color:black;
+  background-color: white;
+  border:1px solid black;
+  border-radius: 10px;
+  height:30px;
+  width: 50px;
+  margin:10px;
+}
+
+.sub:hover{
+color:white;
+background-color: black;    
+border-radius: 10px;
+}
+
+.sub2{
+  display:inline-block;
+  color:rgb(107, 107, 107);
+  background-color: white;
+  border:1px solid rgb(107, 107, 107);
+  border-radius: 5px;
+  height:80px;
+  width:80px;
+  margin:10px;
+  font-size: 15px;
+  text-align: center;
+  position: absolute;
+  top:0;
+  right:0;
+
+}
+
+.sub2:hover{
+  color:white;
+  background-color: black;    
+  border-radius: 5px;
+  }
