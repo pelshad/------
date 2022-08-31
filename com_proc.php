@@ -12,7 +12,7 @@
         "i_user" => $i_user,
         "i_board" => $i_board,
         "ctnt" => $ctnt
-    ];
+    ];  
 
     $result = ins_comct($param);
     up_comct($param);
